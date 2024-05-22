@@ -28,5 +28,29 @@ class UserInfoChecker:
     def get_ip_address(self):
         return self.data['ip']
 
+    def get_hostname(self):
+        return self.data['hostname']
+
+    def get_city(self):
+        return self.data['city']
+
+    def get_region(self):
+        return self.data['region']
+
+    def get_country(self):
+        return self.data['country']
+
+    def get_loc(self):
+        return self.data['loc']
+
+    def get_org(self):
+        return self.data['org']
+
+    def get_postal(self):
+        return self.data['postal']
+
+    def get_timezone(self):
+        return self.data['timezone']
+
     def all_user_info(self):
         return self.data
