@@ -7,4 +7,4 @@
 from user_info_checker.ip_master import UserInfoChecker
 from user_info_checker.system_info_checker import SystemInfoChecker
 """User Info Checker - A library for get user information."""
-__version__ = '0.0.1'
+__version__ = '0.0.2'

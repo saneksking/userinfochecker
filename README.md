@@ -1,4 +1,4 @@
-# User Info Checker <sup>v 0.0.1</sup>
+# User Info Checker <sup>v 0.0.2</sup>
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/userinfochecker)](https://github.com/saneksking/userinfochecker/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/userinfochecker?label=pypi%20downloads)](https://pypi.org/project/userinfochecker/)
