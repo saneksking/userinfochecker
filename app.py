@@ -1,6 +1,6 @@
 from output_decorator import StringDecorator
-from ip_master import UserInfoChecker
-from system_info_checker import SystemInfoChecker
+from user_info_checker.ip_master import UserInfoChecker
+from user_info_checker.system_info_checker import SystemInfoChecker
 
 
 def main():
@@ -14,8 +14,8 @@ def main():
     sys_info = SystemInfoChecker()
     print(f'Information of user {sys_info.get_username()}:')
     # app ----------------------------------------
-    ip = UserInfoChecker()
-    for k, v in ip.data.items():
+    user_info = UserInfoChecker()
+    for k, v in user_info.data.items():
         print(f'{k}: {v}')
     # --------------------------------------------
 
